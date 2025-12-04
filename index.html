@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 5px;
+            width: 12cm;
+            height: 8cm;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   /* vertical centering */
+            align-items: center;       /* horizontal centering */
+            text-align: center;        /* center text */
+            gap: 6px;                  /* spacing between elements */
+        }
+
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(yellow, green);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            margin: 0;
+        }
+
+        /* Logo + Title */
+        .header-box {
+            padding-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .header-box img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* QR code box */
+        .qr-box {
+            background: white;
+            padding: 6px;
+            border-radius: 8px;
+            width: 4cm;
+        }
+
+        .qr-box img {
+            width: 100%;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="header-box">
+        <img src="Screenshot (22).png" alt="Logo">
+        <h1 class="gradient-text">Blitz Power Solutions</h1>
+    </div>
+
+    <p class="gradient-text" style="font-size: 14px;">
+        Tap or Scan to Review
+    </p>
+
+    <div class="qr-box">
+        <img src="qrcode_www.google.com.png" alt="QR Code">
+    </div>
+
+    <p class="gradient-text" style="font-size: 12px;">
+        Thank You!
+    </p>
+
+    
+        <p style="font-size: 8px;">This product was developed by Codepulse Web Dev • +27 83 786 9472</p>
+
+
+</body>
+</html>
